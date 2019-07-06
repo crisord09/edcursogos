@@ -39,8 +39,8 @@ func tipoEdad(edad uint8) string {
 }
 
 //Firma de la funcion max y min
-func maxymin(numeros []int8) (int8, int8) {
-	var max, min int8
+func maxymin(numeros []int8) (max int8, min int8) {
+
 	for _, v := range numeros {
 		if v > max {
 			max = v
@@ -49,6 +49,6 @@ func maxymin(numeros []int8) (int8, int8) {
 		}
 	}
 
-	return max, min
+	return
 
 }
